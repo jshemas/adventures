@@ -1,3 +1,8 @@
+.DS_Store
+
+# database
+db.json
+
 # Logs
 logs
 *.log

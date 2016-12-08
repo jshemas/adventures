@@ -1,0 +1,39 @@
+{
+  "name": "adventures",
+  "description": "Adventure game made in Node.js",
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "adventures.js",
+  "bin": {
+    "adventures": "./adventures.js"
+  },
+  "author": {
+    "name": "Josh Shemas",
+    "email": "jshemas1@gmail.com",
+    "url": "https://github.com/jshemas"
+  },
+  "dependencies": {
+    "lodash": "4.17.2",
+    "lowdb": "0.14.0"
+  },
+  "devDependencies": {
+    "eslint": "3.11.1",
+    "eslint-plugin-promise": "3.4.0",
+    "eslint-plugin-standard": "2.0.1",
+    "expect.js": "0.3.1",
+    "mocha": "3.2.0"
+  },
+  "engines": {
+    "node": "6.9.1",
+    "npm": "3.10.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/jshemas/adventures.git",
+    "web": "http://github.com/jshemas/adventures"
+  },
+  "keywords": [
+    "adventure",
+    "game"
+  ]
+}
