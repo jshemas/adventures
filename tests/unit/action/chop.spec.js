@@ -16,8 +16,6 @@ describe('chop', function () {
         name: 'main',
         level: 1,
         experience: 1,
-        chopLevel: 3,
-        chopExperience: 2,
         items: {
           wood: 1
         }

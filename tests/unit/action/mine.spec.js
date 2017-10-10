@@ -16,8 +16,6 @@ describe('mine', function () {
         name: 'main',
         level: 1,
         experience: 1,
-        mineLevel: 3,
-        mineExperience: 2,
         items: {
           rock: 1
         }

@@ -16,8 +16,6 @@ describe('fire', function () {
         name: 'main',
         level: 1,
         experience: 1,
-        fireLevel: 3,
-        fireExperience: 2,
         items: {
           wood: 1
         }
