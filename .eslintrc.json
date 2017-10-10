@@ -20,6 +20,7 @@
 
   "globals": {
     /* MOCHA */
+    "context"    : false,
     "describe"   : false,
     "it"         : false,
     "before"     : false,

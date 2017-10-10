@@ -1,9 +1,14 @@
 {
   "name": "adventures",
   "description": "Adventure game made in Node.js",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "license": "MIT",
   "main": "adventures.js",
+  "scripts": {
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
+    "eslint": "eslint .",
+    "test": "nyc --reporter=html --reporter=text --exclude=tests/ mocha tests/**/*.js"
+  },
   "bin": {
     "adventures": "./adventures.js"
   },
@@ -13,19 +18,21 @@
     "url": "https://github.com/jshemas"
   },
   "dependencies": {
-    "lodash": "4.17.2",
-    "lowdb": "0.14.0"
+    "lodash": "4.17.4",
+    "lowdb": "1.0.0"
   },
   "devDependencies": {
-    "eslint": "3.11.1",
-    "eslint-plugin-promise": "3.4.0",
-    "eslint-plugin-standard": "2.0.1",
+    "coveralls": "3.0.0",
+    "eslint": "4.8.0",
+    "eslint-plugin-promise": "3.5.0",
+    "eslint-plugin-standard": "3.0.1",
     "expect.js": "0.3.1",
-    "mocha": "3.2.0"
+    "mocha": "3.5.3",
+    "nyc": "11.2.1",
+    "sinon": "4.0.0"
   },
   "engines": {
-    "node": "6.9.1",
-    "npm": "3.10.8"
+    "node": ">=4"
   },
   "repository": {
     "type": "git",
@@ -33,7 +40,10 @@
     "web": "http://github.com/jshemas/adventures"
   },
   "keywords": [
+    "adventure game",
     "adventure",
-    "game"
+    "fun",
+    "game",
+    "role play"
   ]
 }
