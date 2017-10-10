@@ -26,7 +26,8 @@ describe('chop', function () {
     });
     it('was able to chop wood', function (done) {
       chop.init().then(function (res) {
-        expect(res).to.eql(res);
+        expect(res.success).to.eql(true);
+        expect(res.levelUp).to.eql(false);
         done();
       });
     });
@@ -47,7 +48,8 @@ describe('chop', function () {
     });
     it('was able to level up', function (done) {
       chop.init().then(function (res) {
-        expect(res).to.eql(res);
+        expect(res.success).to.eql(true);
+        expect(res.levelUp).to.eql(true);
         done();
       });
     });
