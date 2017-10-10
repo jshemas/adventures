@@ -18,7 +18,7 @@ adventures chop
 ```
 
 ### Features
-- You can chop wood!
+- You can chop wood!!
 
 ### Tests
 ```
