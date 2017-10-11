@@ -14,7 +14,7 @@ describe('chop', function () {
     beforeEach(function () {
       sandbox.stub(db, 'getUserInfo').resolves({
         name: 'main',
-        level: 1,
+        level: 3,
         experience: 1,
         items: {
           wood: 1
